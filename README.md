@@ -23,7 +23,7 @@ Here, we load and register the MySQL JDBC driver.
 
 ### 3. Establishing a Connection
 ```java
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb","root","FE321869");
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb","root","root");
 ```
 We establish a connection to the database using the `DriverManager.getConnection` method. The URL specifies the database location, and the username and password are used for authentication.
 
